@@ -1,0 +1,20 @@
+<ul>
+	<table border=2>
+		<thead>
+			<tr>
+				<th width = "5%"><p>No<p></th>
+				<th width = "20%"><p>Name<p></th>
+
+			</tr>
+    	</thead>
+    	<tbody>
+		{% for j,i in data.items %}
+		<tr>
+		<td>{{ j }}</td>
+		<td><a href="/app1/usr_info/?id={{ j }}&name={{i}}">{{ i }}</td>
+		</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+<ul>
+	
