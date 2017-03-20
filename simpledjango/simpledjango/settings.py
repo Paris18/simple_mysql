@@ -80,8 +80,8 @@ DATABASES = {
             'NAME': 'SIMPLE_DB',
             'HOST': '127.0.0.1',
             'PORT': '3306',
-            'USER': 'root',
-            'PASSWORD': 'paris',
+            'USER': 'your_db_username',
+            'PASSWORD': 'your_password',
     }
 }
 
